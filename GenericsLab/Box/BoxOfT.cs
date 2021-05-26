@@ -5,14 +5,17 @@ namespace BoxOfT
     public class Box<T>
     {
         List<T> elements;
+        
         public Box()
         {
             elements = new List<T>();
         }
+        
         public void Add(T element)
         {
             elements.Insert(0, element);
         }
+        
         public T Remove()
         {
             T removedElement = elements[0];
