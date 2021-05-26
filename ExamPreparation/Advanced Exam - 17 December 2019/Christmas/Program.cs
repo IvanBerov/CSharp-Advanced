@@ -8,8 +8,15 @@ namespace Christmas
     {
         static void Main(string[] args)
         {
-            var input1 = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            var input2 = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var input1 = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+            
+            var input2 = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
 
             Stack<int> materialCrafting = new Stack<int>(input1);
             Queue<int> magicLevelValues = new Queue<int>(input2);
