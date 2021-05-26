@@ -1,2 +1,2 @@
-c# Advanced
+C# Advanced
 exercises solutions
