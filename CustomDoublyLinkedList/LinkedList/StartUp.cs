@@ -32,6 +32,7 @@ namespace LinkedList
             }
 
             doublyLinkedList.ForEach(n=>Console.Write(n + " "));
+
             Console.WriteLine();
 
             for (int i = 1; i <= 10; i++)
